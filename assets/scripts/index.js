@@ -1,61 +1,67 @@
-// console.log("welcome to js class 2")
-// console.warn("welcome to js class 2")
-// console.error("welcome to js class 2")
-
-// alert("battery is low")
-// confirm("battery is low")
-// prompt("enter your name")
+// {&& , || , !}
 
 
-// variables
-// var let const 
+// let username="mahes"
+// let email="mahes@gmail.com"
+// let password=ture
+// let name=true
 
 
-// | Feature    | `var`           | `let`           | `const`      |
-// | ---------- | --------------- | --------------- | ------------ |
-// | Scope      | Function        | Block           | Block        |
-// | Re-declare | ✅ Yes          | ❌ No           | ❌ No         |
-// | Re-assign  | ✅ Yes          | ✅ Yes          | ❌ No         |
-// | Hoisting   | Yes (undefined) | Yes (TDZ)       | Yes (TDZ)    |
-// | Common use | Old JS          | Changing values | Fixed values |
+// console.log(username=="" ||  email=="mahes@gmail.com");
+// console.log(!name);
+// console.log( condition ? "true statement" : "false statement");
 
 
-// <!-- Data Types - String , Number , Boolean , Object ( Array , Object , Date , Null ) -->
+// let age=18
+// let vote = 18
 
-// console.log("welcome ",a);
-// const a=false
-let obj={name:"mahes" , age:23}
-let arr=["mahes",10,true,{name:"mani"}]
+// console.log(age >= vote ? "you'r minor" : "you'r major");
+// unary 
+// ternary
 
-// console.table(arr);
+// (+,-)
 
-// console.log(arr[3].name);
+// let age=20
+// console.log(++age);
+// console.log(age++);
 
-// arithmetic operator  {+,-,*,/,%}
+// console.log(age--); 19
 
-// let a="20"
-// let b=10
-// console.log(a-b);
+// console.log(age--);
+// console.log(age--);
 
+// console.log(age);
 
-// {> , >= , < , <= , == , != ,=== ,!==}
+// let MRP = 81.99
 
-// let a={name}
-// let b={name:"mahes"}
-// console.log(a==b);
+// console.log(Math.ceil(MRP));
+// console.log(Math.floor(MRP));
+// console.log(Math.sqrt(MRP));
+// console.log(Math.sqrt(MRP).toFixed(2));
+// console.log(parseFloat(MRP));
+// console.log(isNaN(MRP));
+// console.log(typeof(MRP));
+// MRP = Number(MRP)
+// console.log(typeof(MRP.toFixed(2)));
 
-
-
-
+// console.log(Math.ceil(Math.random()*10000));
 
 
 
+let name=123
+console.log(name);
 
+name=name.toString()
 
+console.log(name);
 
+// let search= " apple banana "
+// console.log(search.length);
+// console.log(search.trim().length);
 
-
-
-
+// console.log(name.toUpperCase().includes("L"));
+// console.log(name.indexOf("p"));
+// console.log(name.charAt("2"));
+// console.log(name.includes("L"));
 
 
