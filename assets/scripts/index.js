@@ -1,67 +1,69 @@
-// {&& , || , !}
-
-
-// let username="mahes"
-// let email="mahes@gmail.com"
-// let password=ture
-// let name=true
-
-
-// console.log(username=="" ||  email=="mahes@gmail.com");
-// console.log(!name);
-// console.log( condition ? "true statement" : "false statement");
-
-
-// let age=18
-// let vote = 18
-
-// console.log(age >= vote ? "you'r minor" : "you'r major");
-// unary 
-// ternary
-
-// (+,-)
-
-// let age=20
-// console.log(++age);
-// console.log(age++);
-
-// console.log(age--); 19
-
-// console.log(age--);
-// console.log(age--);
-
-// console.log(age);
-
-// let MRP = 81.99
-
-// console.log(Math.ceil(MRP));
-// console.log(Math.floor(MRP));
-// console.log(Math.sqrt(MRP));
-// console.log(Math.sqrt(MRP).toFixed(2));
-// console.log(parseFloat(MRP));
-// console.log(isNaN(MRP));
-// console.log(typeof(MRP));
-// MRP = Number(MRP)
-// console.log(typeof(MRP.toFixed(2)));
-
-// console.log(Math.ceil(Math.random()*10000));
+// document.title="class 1"
+// console.log(document.URL);
+// console.log(document.domain);
+// console.log(document.forms);
+// console.log(document.images);
+// console.log(document.links);
 
 
 
-let name=123
-console.log(name);
-
-name=name.toString()
-
-console.log(name);
-
-// let search= " apple banana "
-// console.log(search.length);
-// console.log(search.trim().length);
-
-// console.log(name.toUpperCase().includes("L"));
-// console.log(name.indexOf("p"));
-// console.log(name.charAt("2"));
-// console.log(name.includes("L"));
+// document.getElementById("head").style.color="red"
+// document.getElementsByClassName("head")[3].style.color="red"
+// document.getElementsByTagName("h1")[4].style.backgroundColor="blue"
+// document.querySelector(".head").style.color="red"
+// document.querySelectorAll(".head")[1].style.color="red"
 
 
+// let h1tag=document.getElementById("head")
+// h1tag.style.color="red"
+// h1tag.style.backgroundColor="red"
+// h1tag.innerText="jeswanth"
+
+// document.getElementById("para").innerHTML="<h1> jeswanth </h1>"
+// document.getElementById("para").style.color="blue"
+
+// let data=document.createElement("div")
+// data.innerText="hi"
+// document.body.appendChild(data)
+
+
+// let data = document.createElement("div");
+
+// data.innerText = "hi";
+
+// document.body.appendChild(data);
+
+
+// let data = document.createElement("div")
+// data.innerText = "hi"
+// document.body.appendChild(data)
+
+
+
+
+// function fun_name(parameters){
+//     statement1()
+//     statement2()
+//     statement3()
+// }
+
+// fun_name(arguments) // function calling
+
+
+// function loginFun() {
+//     console.log("hi");
+//     let h1tag = document.getElementById("head")
+//     h1tag.style.color = "red"
+
+// }
+// loginFun() 
+
+
+function formSub(event){
+    event.preventDefault()
+    let inputData=document.getElementById("inputdata").value
+    console.log(inputData);
+
+    document.getElementById("head").innerText=inputData
+    
+}
